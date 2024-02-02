@@ -1,0 +1,113 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depangor_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 35.663490778943775,
+	        "minpan": 0,
+	        "mintilt": -35.663490778943775
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "116.1397,1.6477",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ruang kelas"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 84,
+	                "width": 204
+	            },
+	            "bitmap": "pap_perspectiveArrow2x.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "arahkantin.html",
+	            "opacity": "1.00;1.00",
+	            "position": "152.2891,20.1556",
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 68,
+	                "width": 144
+	            },
+	            "bitmap": "pap_runningArrowRight2x.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "arahperpus.html",
+	            "opacity": "1.00;1.00",
+	            "position": "335.9590,12.8134",
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "pintumasukgor.html",
+	            "opacity": "1.00;1.00",
+	            "position": "254.4305,24.7505",
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depangor",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depangor_tiles/depangor_t_1b_%0y_%0x.jpg"},"down":{"src":"depangor_tiles/depangor_t_1d_%0y_%0x.jpg"},"front":{"src":"depangor_tiles/depangor_t_1f_%0y_%0x.jpg"},"height":5214,"left":{"src":"depangor_tiles/depangor_t_1l_%0y_%0x.jpg"},"right":{"src":"depangor_tiles/depangor_t_1r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"depangor_tiles/depangor_t_1u_%0y_%0x.jpg"},"width":5214},{"back":{"src":"depangor_tiles/depangor_t_2b_%0y_%0x.jpg"},"down":{"src":"depangor_tiles/depangor_t_2d_%0y_%0x.jpg"},"front":{"src":"depangor_tiles/depangor_t_2f_%0y_%0x.jpg"},"height":2607,"left":{"src":"depangor_tiles/depangor_t_2l_%0y_%0x.jpg"},"right":{"src":"depangor_tiles/depangor_t_2r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"depangor_tiles/depangor_t_2u_%0y_%0x.jpg"},"width":2607},{"back":{"src":"depangor_tiles/depangor_t_3b_%0y_%0x.jpg"},"down":{"src":"depangor_tiles/depangor_t_3d_%0y_%0x.jpg"},"front":{"src":"depangor_tiles/depangor_t_3f_%0y_%0x.jpg"},"height":1304,"left":{"src":"depangor_tiles/depangor_t_3l_%0y_%0x.jpg"},"right":{"src":"depangor_tiles/depangor_t_3r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"depangor_tiles/depangor_t_3u_%0y_%0x.jpg"},"width":1304},{"back":{"src":"depangor_tiles/depangor_t_4b_%0y_%0x.jpg"},"down":{"src":"depangor_tiles/depangor_t_4d_%0y_%0x.jpg"},"front":{"src":"depangor_tiles/depangor_t_4f_%0y_%0x.jpg"},"height":652,"left":{"src":"depangor_tiles/depangor_t_4l_%0y_%0x.jpg"},"right":{"src":"depangor_tiles/depangor_t_4r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"depangor_tiles/depangor_t_4u_%0y_%0x.jpg"},"width":652},{"back":{"src":"depangor_tiles/depangor_t_5b_%0y_%0x.jpg"},"down":{"src":"depangor_tiles/depangor_t_5d_%0y_%0x.jpg"},"front":{"src":"depangor_tiles/depangor_t_5f_%0y_%0x.jpg"},"height":326,"left":{"src":"depangor_tiles/depangor_t_5l_%0y_%0x.jpg"},"right":{"src":"depangor_tiles/depangor_t_5r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"depangor_tiles/depangor_t_5u_%0y_%0x.jpg"},"width":326}],"multilevel":true,"preview":{"src":"depangor_tiles/depangor_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 180.00000000000003,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

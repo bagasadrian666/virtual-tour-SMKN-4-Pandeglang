@@ -1,0 +1,134 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "kantingor_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 35.5181715050037,
+	        "minpan": 0,
+	        "mintilt": -35.5181715050037
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "pintumasukgor.html",
+	            "opacity": "1.00;1.00",
+	            "position": "60.9156,27.7714",
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "gor.html",
+	            "opacity": "1.00;1.00",
+	            "position": "165.2106,12.5834",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Gedung olahraga"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 84,
+	                "width": 204
+	            },
+	            "bitmap": "pap_perspectiveArrow2x.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "menujugor.html",
+	            "opacity": "1.00;1.00",
+	            "position": "338.8817,24.1679",
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "254.7381,1.5599",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ruang alat olahraga"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "321.3454,5.8470",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Koperasi"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "kantingor",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"kantingor_tiles/kantingor_t_1b_%0y_%0x.jpg"},"down":{"src":"kantingor_tiles/kantingor_t_1d_%0y_%0x.jpg"},"front":{"src":"kantingor_tiles/kantingor_t_1f_%0y_%0x.jpg"},"height":5214,"left":{"src":"kantingor_tiles/kantingor_t_1l_%0y_%0x.jpg"},"right":{"src":"kantingor_tiles/kantingor_t_1r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"kantingor_tiles/kantingor_t_1u_%0y_%0x.jpg"},"width":5214},{"back":{"src":"kantingor_tiles/kantingor_t_2b_%0y_%0x.jpg"},"down":{"src":"kantingor_tiles/kantingor_t_2d_%0y_%0x.jpg"},"front":{"src":"kantingor_tiles/kantingor_t_2f_%0y_%0x.jpg"},"height":2607,"left":{"src":"kantingor_tiles/kantingor_t_2l_%0y_%0x.jpg"},"right":{"src":"kantingor_tiles/kantingor_t_2r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"kantingor_tiles/kantingor_t_2u_%0y_%0x.jpg"},"width":2607},{"back":{"src":"kantingor_tiles/kantingor_t_3b_%0y_%0x.jpg"},"down":{"src":"kantingor_tiles/kantingor_t_3d_%0y_%0x.jpg"},"front":{"src":"kantingor_tiles/kantingor_t_3f_%0y_%0x.jpg"},"height":1304,"left":{"src":"kantingor_tiles/kantingor_t_3l_%0y_%0x.jpg"},"right":{"src":"kantingor_tiles/kantingor_t_3r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"kantingor_tiles/kantingor_t_3u_%0y_%0x.jpg"},"width":1304},{"back":{"src":"kantingor_tiles/kantingor_t_4b_%0y_%0x.jpg"},"down":{"src":"kantingor_tiles/kantingor_t_4d_%0y_%0x.jpg"},"front":{"src":"kantingor_tiles/kantingor_t_4f_%0y_%0x.jpg"},"height":652,"left":{"src":"kantingor_tiles/kantingor_t_4l_%0y_%0x.jpg"},"right":{"src":"kantingor_tiles/kantingor_t_4r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"kantingor_tiles/kantingor_t_4u_%0y_%0x.jpg"},"width":652},{"back":{"src":"kantingor_tiles/kantingor_t_5b_%0y_%0x.jpg"},"down":{"src":"kantingor_tiles/kantingor_t_5d_%0y_%0x.jpg"},"front":{"src":"kantingor_tiles/kantingor_t_5f_%0y_%0x.jpg"},"height":326,"left":{"src":"kantingor_tiles/kantingor_t_5l_%0y_%0x.jpg"},"right":{"src":"kantingor_tiles/kantingor_t_5r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"kantingor_tiles/kantingor_t_5u_%0y_%0x.jpg"},"width":326}],"multilevel":true,"preview":{"src":"kantingor_tiles/kantingor_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 180.00000000000003,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}
